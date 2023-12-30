@@ -1,0 +1,29 @@
+body
+{
+    text-align: center;
+}
+
+h1
+{
+    font-size: 40px   !important;
+}
+
+.btn-success:hover
+{
+   background-color: orange;
+}
+
+canvas
+{
+margin-top: 7%;
+animation-name: animate;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+@keyframes animate
+{
+     from{box-shadow: 3px 3px 33px royalblue;}
+     to{box-shadow: 3px 3px 33px red;}
+
+}
